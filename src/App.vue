@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <d3-pie-chart></d3-pie-chart>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import D3PieChart from './components/D3PieChart.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    D3PieChart
   }
 }
 </script>
